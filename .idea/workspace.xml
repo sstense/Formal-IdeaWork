@@ -1,0 +1,1271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02bebbb5-d210-404a-891c-df686a09d44e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/SpringBoot_Vue_wrm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/jsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/assets/global.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/Aside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/DateUtils.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/Header.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/Index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/admin/AdminManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/goods/GoodsManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/goodstype/GoodstypeManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/record/RecordManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/storage/StorageManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/user/SelectUserManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/components/user/UserManage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms-web/vue.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/WmsApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/common/CodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/common/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/common/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/common/QueryPageParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/common/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodstypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/RecordController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/StorageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Goodstype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Record.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/RecordRes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/GoodstypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/RecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/StorageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/GoodstypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/RecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/StorageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/GoodstypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/RecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/StorageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/mapper/GoodstypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/mapper/RecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/src/test/java/com/wms/WmsApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/META-INF/wms.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/WmsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/CodeGenerator$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/CodeGenerator$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/CodeGenerator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/CorsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/QueryPageParam.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/common/Result.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/controller/GoodsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/controller/GoodstypeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/controller/MenuController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/controller/RecordController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/controller/StorageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/Goods.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/Goodstype.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/Menu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/Record.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/RecordRes.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/Storage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/mapper/GoodsMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/mapper/GoodstypeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/mapper/MenuMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/mapper/RecordMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/mapper/StorageMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/GoodsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/GoodstypeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/MenuService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/RecordService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/StorageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/impl/GoodsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/impl/GoodstypeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/impl/MenuServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/impl/RecordServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/impl/StorageServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/com/wms/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/mapper/GoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/mapper/GoodstypeMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/mapper/RecordMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/mapper/StorageMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wms/target/test-classes/com/wms/WmsApplicationTests.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/wrm/target/" />
+    <ignored path="$PROJECT_DIR$/wrm/.gradle/" />
+    <ignored path="$PROJECT_DIR$/wrm/build/" />
+    <ignored path="$PROJECT_DIR$/wms/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/wrm">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/wrm">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrm" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="wrm" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms-web/src/components/Aside.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <element signature="n#style#0;n#el-menu#0;n#template#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/RecordController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/StorageMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/StorageController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1026">
+              <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/common/MybatisPlusConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodstypeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1178">
+              <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms-web/src/store/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="722">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms-web/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/RecordMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="55" selection-start-line="21" selection-start-column="11" selection-end-line="24" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/MenuController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="CSS File" />
+        <option value="Vue Single File Component" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>userService</find>
+      <find>user</find>
+      <find>Storage</find>
+      <find>storage</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>storageService</replace>
+      <replace>storage</replace>
+      <replace>Goodstype</replace>
+      <replace>goods</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wms-web/src/assets/global.css" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/common/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/common/QueryPageParam.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/UserService.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/Main.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/router/Index.js" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/Home.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/DateUtils.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/Index.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/Header.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/MenuMapper.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/MenuController.java" />
+        <option value="$PROJECT_DIR$/wms-web/src/main.js" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/Login.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/Aside.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/StorageService.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/StorageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/resources/mapper/MenuMapper.xml" />
+        <option value="$PROJECT_DIR$/wms/src/main/resources/mapper/StorageMapper.xml" />
+        <option value="$PROJECT_DIR$/wms-web/src/router/index.js" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/admin/AdminManage.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/user/UserManage.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/storage/StorageManage.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/GoodstypeService.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/GoodstypeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/GoodstypeMapper.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/resources/mapper/GoodstypeMapper.xml" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/GoodsService.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/GoodsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/GoodsMapper.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/resources/mapper/GoodsMapper.xml" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/StorageController.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodstypeController.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodsController.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/RecordService.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/RecordMapper.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/RecordServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/goodstype/GoodstypeManage.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/RecordRes.java" />
+        <option value="$PROJECT_DIR$/wms/src/main/resources/mapper/RecordMapper.xml" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/user/SelectUserManage.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Record.java" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/goods/GoodsManage.vue" />
+        <option value="$PROJECT_DIR$/wms-web/src/components/record/RecordManage.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/controller/RecordController.java" />
+        <option value="$PROJECT_DIR$/wms-web/src/store/index.js" />
+        <option value="$PROJECT_DIR$/wms-web/src/App.vue" />
+        <option value="$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/StorageMapper.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="wms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="255" />
+    <option name="y" value="215" />
+    <option name="width" value="1480" />
+    <option name="height" value="825" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot_Vue_wrm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringBoot_Vue_wrm" type="462c0819:PsiDirectoryNode" />
+              <item name="wms-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.wrm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaWorkSpace\SpringBoot_Vue_wrm\wms-web\src\components\user" />
+      <recent name="E:\IdeaWorkSpace\SpringBoot_Vue_wrm\wms-web\src\components\record" />
+      <recent name="E:\IdeaWorkSpace\SpringBoot_Vue_wrm\wms-web\src\components\goods" />
+      <recent name="E:\IdeaWorkSpace\SpringBoot_Vue_wrm\wms-web\src\components\goodstype" />
+      <recent name="E:\IdeaWorkSpace\SpringBoot_Vue_wrm\wms-web\src\components\storage" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.serve">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wms.common.CodeGenerator" />
+      <module name="wms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wms.common.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wms.WmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WrmApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="wrm" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wrm.WrmApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serve" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/wms-web/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.CodeGenerator" />
+      <item itemvalue="npm.serve" />
+      <item itemvalue="Spring Boot.WmsApplication" />
+      <item itemvalue="Spring Boot.WrmApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02bebbb5-d210-404a-891c-df686a09d44e" name="Default Changelist" comment="" />
+      <created>1678163085773</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678163085773</updated>
+      <workItem from="1678163087317" duration="345000" />
+      <workItem from="1678163455697" duration="737000" />
+      <workItem from="1678173603618" duration="2032000" />
+      <workItem from="1678175683655" duration="1005000" />
+      <workItem from="1678178469608" duration="438000" />
+      <workItem from="1678178942407" duration="773000" />
+      <workItem from="1678179748889" duration="2684000" />
+      <workItem from="1678182481488" duration="1425000" />
+      <workItem from="1678244777494" duration="1607000" />
+      <workItem from="1678264941504" duration="1970000" />
+      <workItem from="1678283360128" duration="3469000" />
+      <workItem from="1678347618620" duration="5450000" />
+      <workItem from="1678369988241" duration="2739000" />
+      <workItem from="1678694885944" duration="3379000" />
+      <workItem from="1678779484723" duration="5353000" />
+      <workItem from="1678868668696" duration="2692000" />
+      <workItem from="1678953249022" duration="1016000" />
+      <workItem from="1679054504076" duration="436000" />
+      <workItem from="1679055130586" duration="1548000" />
+      <workItem from="1679364187555" duration="1477000" />
+      <workItem from="1679365778448" duration="992000" />
+      <workItem from="1679366809921" duration="2261000" />
+      <workItem from="1679369472320" duration="337000" />
+      <workItem from="1679383613376" duration="6757000" />
+      <workItem from="1679450199633" duration="5650000" />
+      <workItem from="1679470604474" duration="7920000" />
+      <workItem from="1679495933790" duration="1909000" />
+      <workItem from="1679536891337" duration="9459000" />
+      <workItem from="1679546911377" duration="3534000" />
+      <workItem from="1679558327800" duration="5681000" />
+      <workItem from="1679579432002" duration="2040000" />
+      <workItem from="1679644258327" duration="861000" />
+      <workItem from="1679653106111" duration="2442000" />
+      <workItem from="1679736589214" duration="5024000" />
+      <workItem from="1679754154371" duration="43000" />
+      <workItem from="1679805124630" duration="1203000" />
+      <workItem from="1679903569837" duration="4013000" />
+      <workItem from="1679992011490" duration="5966000" />
+      <workItem from="1680079004630" duration="8780000" />
+      <workItem from="1680087922469" duration="3507000" />
+      <workItem from="1680162302157" duration="10186000" />
+      <workItem from="1680249418043" duration="6369000" />
+      <workItem from="1680258074509" duration="3711000" />
+      <workItem from="1680261851462" duration="219000" />
+      <workItem from="1680320806186" duration="6904000" />
+      <workItem from="1680338490417" duration="4414000" />
+      <workItem from="1680428701630" duration="1999000" />
+      <workItem from="1680431821717" duration="1418000" />
+      <workItem from="1680508369051" duration="606000" />
+      <workItem from="1680577900287" duration="8335000" />
+      <workItem from="1680666940605" duration="5465000" />
+      <workItem from="1680687059223" duration="2915000" />
+      <workItem from="1680755177326" duration="13073000" />
+      <workItem from="1680928057914" duration="3313000" />
+      <workItem from="1681012591304" duration="1388000" />
+      <workItem from="1681272638994" duration="1188000" />
+      <workItem from="1681360746092" duration="1005000" />
+      <workItem from="1681446755559" duration="1086000" />
+      <workItem from="1681702392780" duration="1424000" />
+      <workItem from="1681703859903" duration="1047000" />
+      <workItem from="1681710022782" duration="762000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="195781000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24597855" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.33065596" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33199465" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3939394" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.56060606" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.3290938" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.3290938" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.24631861" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Maven" order="1" weight="0.28213167" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.2492163" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32893497" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/DateUtils.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1767">
+          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Storage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6422">
+          <caret line="338" column="8" selection-end-line="338" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-popconfirm#0;n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/GoodstypeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/GoodstypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/WmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/StorageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="55" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/StorageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="13" selection-start-line="26" selection-start-column="4" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/StorageMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" selection-start-line="16" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/common/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="134" column="36" selection-start-line="134" selection-start-column="36" selection-end-line="134" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/MenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/GoodstypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="25" column="4" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="31" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="187" column="53" selection-start-line="187" selection-start-column="53" selection-end-line="187" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/impl/RecordServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="25" column="13" lean-forward="true" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/GoodstypeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/GoodsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="53" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/service/RecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/MenuMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/GoodsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/GoodsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/RecordMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/storage/StorageManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-popconfirm#0;n#template#0;n#el-table-column#3;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Goods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Goodstype.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="44" column="5" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="44" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/admin/AdminManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5301">
+          <caret line="279" column="35" selection-start-line="279" selection-start-column="20" selection-end-line="279" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-popconfirm#0;n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/user/UserManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5282">
+          <caret line="278" column="35" selection-start-line="278" selection-start-column="35" selection-end-line="278" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-popconfirm#0;n#template#0;n#el-table-column#7;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/user/SelectUserManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/record/RecordManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2508">
+          <caret line="132" column="45" selection-start-line="132" selection-start-column="45" selection-end-line="132" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/goodstype/GoodstypeManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="56" selection-start-line="3" selection-start-column="56" selection-end-line="3" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/goods/GoodsManage.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3933">
+          <caret line="207" column="68" selection-start-line="207" selection-start-column="16" selection-end-line="207" selection-end-column="68" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-input#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#1;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#2;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#3;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-button#4;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-popconfirm#0;n#template#0;n#el-table-column#6;n#el-table#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#el-col#0;n#el-form-item#2;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#el-select#0;n#el-col#0;n#el-form-item#3;n#el-form#0;n#el-dialog#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/Header.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#el-dropdown#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/entity/RecordRes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/entity/Record.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="55" column="30" selection-start-line="55" selection-start-column="30" selection-end-line="55" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/components/Aside.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#el-menu#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/StorageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="71" column="9" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/common/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/GoodstypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1178">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/store/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms-web/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/resources/mapper/RecordMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="55" selection-start-line="21" selection-start-column="11" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/controller/RecordController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wms/src/main/java/com/wms/mapper/StorageMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
